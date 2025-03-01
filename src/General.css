@@ -1,0 +1,55 @@
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex; /* Sử dụng Flexbox để căn chỉnh theo hàng ngang */
+  align-items: center; /* Căn giữa chiều cao */
+  margin-bottom: 15px; /* Thêm khoảng cách giữa các nhóm input */
+}
+
+.input-group label {
+  min-width: 20px; /* Đặt chiều rộng tối thiểu cho nhãn */
+  margin-right: 10px; /* Thêm khoảng cách giữa nhãn và input */
+  font-weight: bold;
+  color: #555;
+}
+
+.input-group input {
+  flex: 1; /* Input chiếm phần còn lại của dòng */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e7f4e4;
+  border: 1px solid #d4e7d3;
+  border-radius: 5px;
+  color: #2f5d31;
+}

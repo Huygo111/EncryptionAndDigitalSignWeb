@@ -1,0 +1,39 @@
+/* Thanh điều hướng */
+.navbar {
+    background-color: #343a40;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Danh sách liên kết */
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+/* Từng liên kết */
+.nav-item {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hiệu ứng hover */
+.nav-item:hover {
+    background-color: #495057;
+    color: #f8f9fa;
+}
+
+/* Liên kết đang được chọn (active) */
+.nav-item.active {
+    background-color: #007bff;
+    color: #fff;
+}
